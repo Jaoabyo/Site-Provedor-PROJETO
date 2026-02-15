@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    font-family: poppins;
+}
+.secao-topo{
+    padding-bottom:5px ;
+    border: 3px;
+    width: 100%;
+    background-color: #2f86d6;
+}
+.container-topo{
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    width: 100%;
+    
+}
+.container-img-topo{
+    display: block;
+    position: relative;
+    display: flex;
+    width: 400px;
+   
+}
+.container-img-topo img{
+    width: 120px;
+}
+.container-botoes-topo a{
+    color: #fff;
+    font-weight: bold;
+    margin: 10px;
+    text-decoration: none;
+}
+.box-titu-topo{
+   height: 60px;
+   position: absolute;
+   top: 30px;
+   left:120px;
+}
+.box-titu-topo p{
+    margin-top:2px ;
+    font-weight: bold;
+    color: #fff;
+}
+.secao-tabela{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+table{
+    font-size: 12px;
+    font-weight: normal;
+    padding: 50px;
+    width: 70%;
+  
+    margin:  auto;
+}
+th{
+    border: 2px solid rgba(182, 179, 179, 0.075);
+    padding: 8px;
+}
+td{
+    font-weight: bold;
+    border: 2px solid rgba(182, 179, 179, 0.075)
+}
+table div{
+    
+    background-color: #2f86d6;
+    margin: 0 auto;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    
+}
+.TITU-TABELA{
+    width: 300px;
+    background-color: rgba(226, 221, 221, 0.466);
+}
+.paragrafo-tabela{
+    font-size: 10px;
+    font-weight: bold;
+    color: gray;
+}
+tbody th{
+    text-align: justify;
+    font-size: 12px;
+}
+thead th{
+    background-color: rgba(226, 221, 221, 0.466);
+}
+.vazio{
+    background-color: #fff;
+    border: none;
+}
+.titu-colum1{
+    font-size:20px;
+}
+.footer{
+    padding-top: 10px;
+    background-color: #2f86d6;
+    width: 100%;
+
+}
+.box-img-footer{
+    position: relative;
+    width: 370px;
+    margin: 0 auto;
+    display: flex;
+}
+.box-img-footer img{
+    width: 120px;
+}
+.texto-img-footer{
+    position: absolute;
+    top: 30px;
+    right:20px ;
+}
+.texto-img-footer p{
+    font-weight: bold;
+    color:  #fff;
+}
+.box-contato{
+    width: 300px;
+    margin: 0 auto;
+    color: #fff;
+    padding: 5px;
+    font-weight: bold;
+}
+.box-creditos{
+    background-color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+.box-creditos a{
+    text-decoration: none;
+    font-weight: bold;
+}

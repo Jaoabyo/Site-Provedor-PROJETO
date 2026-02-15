@@ -1,20 +1,21 @@
 *{
     margin: 0;
     box-sizing: border-box;
+    
 }
 body{
     font-family: "Poppins", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
 }
 .secao-topo{
+    
     width: 100%;
-    height: 100px;
-    position: relative;
-     padding-bottom:10px ;
+    height: 110px;
+    position: relative; 
 }
 .container-topo{
     max-width: 1100px;
     height: 100px;
-    padding: 0 24px;
+    padding: 0 34px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -63,6 +64,8 @@ body{
 }
 
 .container-paragrafo-banner{
+  
+    margin-left: 10%;
     color: #fff;
     width: min(520px, 100%);
 }
@@ -118,7 +121,9 @@ body{
 
 }
 .texto-meio-faixa{
-    position: absolute; left: 10%;
+   
+     width: min(400px, 100%);
+    position: absolute; left: 11%;
     padding: 5px;
    
 }
@@ -127,12 +132,15 @@ body{
     font-weight: bold;
 }
 .botao-faixa{
+    width: 100%;
+    display: block;
+    height: auto;
     position: relative;
     background-color: #2f86d6;
     color: white;
     position: absolute;
     right: 20%;
-    width: 200px;
+     width: min(200px, 100%);
     padding: 10px;
     margin: 0 auto;
     text-align: center;
@@ -144,7 +152,145 @@ body{
     position: absolute;
      left: 10px;
      top:14px;
+}
+.secao-informacoes{
   
+    padding: 100px;
+    text-align: center; 
+}
+.secao-informacoes h2{
+    margin-bottom: 55px;
+}
+.secao-informacoes img{
+    width: 150px;
+}
+.secao-informacoes td{
+    padding: 15px;
+    font-size: 10px; 
+}
+.secao-informacoes table{
+    margin: 10px;
+}
+.secao-informacoes span{
+    font-weight: bold;
+    color: #2f86d6;
+}
+.secao-infomarcoes-2{
+    background-color: #eaf0f1;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px;
     
+}
+.secao-infomarcoes-2 span{
+    font-weight: bold;
+    color: #2f86d6;
+}
+.secao-infomarcoes-2 table{
+    margin-top: 15px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 5px 5px 5px 2px #2f86d6;
+}
+.secao-infomarcoes-2 img{
+    width: 150px;
+    border: so;
+}
+.secao-infomarcoes-2 td{
+    padding: 5px;
     
+}
+.secao-infomarcoes-2 th{
+    border-right: 2px solid rgba(206, 206, 206, 0.192);
+}
+.fundo-escuro{
+    background-color: #d4ecf06e;
+}
+.secao-infomarcoes-2 h2{
+    margin-bottom: 55px;
+}
+.texto-meio-faixa-2{
+   
+     width: min(400px, 100%);
+    position: absolute; left: 11%;
+    padding: 5px;
+   
+}
+.botao-faixa-2{
+    width: 100%;
+    display: block;
+    height: auto;
+    position: relative;
+    background-color: #233032;
+    color: white;
+    position: absolute;
+    right: 20%;
+     width: min(200px, 100%);
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    margin: 1px;
+   
+}
+.secao-faixa-2{
+    color: white;
+    position: relative;
+    background-color: #2f86d6;
+    height: 200px;
+    align-items: center;
+    display: flex;
+    width: 100%;
+
+}
+.footer{
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+  
+}
+.footer p{
+    line-height: 30px;
+}
+.box-img-footer{
+    
+    margin: 0 auto;
+    position: relative;
+    width: 350px;
+    display: flex;
+   
+}
+.box-img-footer img{
+  
+    width: 100px;
+}
+.texto-img-footer{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+.texto-img-footer p{
+    font-weight: bold;
+    color: #2f86d6;
+    
+}
+.footer span{
+    color: #2f86d6;
+    font-weight: bold;
+}
+.footer a{
+    text-decoration: none;
+}
+.creditos{
+    color: #fff;
+    padding: 6px;
+    text-align: center;
+    background-color: #2f86d6;
+}
+.creditos span a{
+    color: #fff;
+    font-weight: bold;
 }
