@@ -2,7 +2,7 @@
 
 Landing page de um provedor fictício de hospedagem, com página principal e tabela de preços.
 
-#Sobre
+## Sobre
 O AlfaTech - Site Provedor é um projeto front-end de uma página institucional para um provedor fictício de hospedagem.
 A aplicação foi desenvolvida com HTML5 e CSS3, com foco em estrutura semântica, organização de layout e apresentação comercial dos planos.
 O site conta com uma landing page informativa e uma página dedicada de tabela de preços, simulando um cenário real de divulgação de serviços digitais.
